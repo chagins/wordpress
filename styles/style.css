@@ -86,7 +86,7 @@
   font-family: "Roboto Bold";
 }
 
-.main_section .main_btn{
+.main_section .main_btn {
   display: block;
   margin: 0 auto;
   margin-top: 69px;
@@ -107,7 +107,7 @@
   color: #ffffff;
 }
 
-.main_section .more{
+.main_section .more {
   margin-top: 69px;
 
   font-family: "Roboto Thin";
@@ -119,10 +119,61 @@
   text-align: center;
 }
 
-.main_section .down_arrows{
+.main_section .down_arrows {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
   width: 30px;
   height: 19px;
+}
+
+.intensive_section {
+  padding: 85px 0 75px 0;
+  min-height: 604px;
+}
+
+.intensive_section .intensive_header {
+  text-align: center;
+  font-family: "Roboto Regular";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.intensive_section .intensive_line {
+  margin: 0 auto;
+  margin-top: 18px;
+  display: block;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.intensive_section .intensive_subhead {
+  margin-top: 17px;
+  font-family: "Roboto Regular";
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.intensive_section .intensive_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.intensive_section .intensive_item {
+  width: 339px;
+}
+
+.intensive_section .intensive_item .intensive_text {
+  margin-top: 33px;
+  text-align: center;
 }
