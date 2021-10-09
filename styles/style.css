@@ -130,6 +130,7 @@
 .intensive_section {
   padding: 85px 0 75px 0;
   min-height: 604px;
+  background-color: #efefef;
 }
 
 .intensive_section .intensive_header {
@@ -177,3 +178,44 @@
   margin-top: 33px;
   text-align: center;
 }
+
+.optimization_section {
+  padding: 102px 0 107px 0;
+  min-height: 550px;
+}
+
+.optimization_section .optimization_header {
+  margin-left: 391px;
+  font-family: "Roboto Black";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.optimization_section .optimization_text {
+  margin-top: 25px;
+  margin-left: 391px;
+  font-family: "Roboto Light";
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.optimization_section .optimization_text span {
+  font-weight: 700;
+}
+
+.optimization_section p {
+  margin: 10px 0;
+}
+
+.optimization_section .optimization_woman {
+  position: absolute;
+  left: -240px;
+  top: -54px;
+  z-index: -1;
+}
+
