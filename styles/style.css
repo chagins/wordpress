@@ -219,3 +219,64 @@
   z-index: -1;
 }
 
+.finish_section {
+  padding: 86px 0 79px 0;
+  min-height: 447px;
+
+  background-image: url("https://chagins.github.io/wordpress/assets/images/finish_section/background_finish.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.finish_section .finish_header {
+  font-family: "Roboto Regular";
+  font-size: 30px;
+  line-height: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #efefef;
+  text-align: center;
+}
+
+.finish_section .finish_line {
+  margin: 0 auto;
+  margin-top: 27px;
+  display: block;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.finish_section .finish_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.finish_section .finish_wrapper .finish_item {
+  width: 208px;
+}
+
+.finish_section .finish_wrapper .finish_item .finish_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+  border-radius: 100%;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+}
+
+.finish_section .finish_wrapper .finish_item .finish_text {
+  margin-top: 26px;
+  font-family: "Roboto Light";
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #efefef;
+  text-align: center;
+}
