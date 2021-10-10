@@ -302,7 +302,7 @@
   text-align: center;
 }
 
-.gift_section .gift_button {
+.gift_section .gift_btn {
   /* button */
   display: block;
   margin: 0 auto;
@@ -310,9 +310,9 @@
   width: 321px;
   height: 80px;
   background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
-  border: 4px solid rgba(0,0,0,0.1);
-  border-radius: 5px;
-  box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.17);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.17);
   /* button label */
   font-family: 'Roboto Condensed';
   font-size: 21px;
@@ -322,3 +322,46 @@
   text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
   color: #ffffff;
 }
+
+.webinar_section {
+  min-height: 515px;
+  padding: 82px 0 64px 0;
+}
+
+.webinar_section .webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar_section .webinar_header {
+  margin-top: 37px;
+  font-family: "Roboto Regular";
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+.webinar_section .webinar_date {
+  margin-top: 30px;
+  font-family: "Roboto Black";
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #299cbd;
+  text-align: center;
+}
+
+.webinar_section .webinar_text {
+  margin-top: 25px;
+  font-family: "Roboto Regular";
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4a4a4a;
+  text-align: center;
+}
+
