@@ -4,10 +4,14 @@
   padding: 0;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
+  position: relative;
   width: 1140px;
   margin: 0 auto;
-  position: relative;
 }
 
 .main_section {
@@ -27,11 +31,8 @@
 
 .main_section .logo_text {
   margin-top: 14px;
-
-  font-family: "Roboto Medium";
+  font-family: 'Roboto Medium';
   font-size: 15px;
-  line-height: 15px;
-  font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
@@ -42,10 +43,8 @@
 }
 
 .main_section .title {
-  font-family: "Roboto Black";
+  font-family: 'Roboto Black';
   font-size: 41px;
-  line-height: 41px;
-  font-weight: 900;
   text-transform: uppercase;
   color: #f9bf3b;
   text-align: center;
@@ -58,11 +57,10 @@
 .main_section h2.simple {
   margin-top: 21px;
 
-  font-family: "Roboto Black";
+  font-family: 'Roboto Black';
   font-size: 80px;
-  line-height: 70px;
-  font-weight: 900;
   text-transform: uppercase;
+  line-height: 80px;
   color: #ffffff;
   text-align: center;
 }
@@ -71,28 +69,27 @@
   margin-top: 23px;
   padding: 0 13px;
 
-  font-family: "Roboto Light";
+  font-family: 'Roboto Light';
   font-size: 21px;
   line-height: 28px;
-  font-weight: 300;
   color: #ffffff;
   text-align: center;
 }
 
 .main_section .main_text span {
-  font-weight: 700;
+  font-family: 'Roboto Bold';
   text-transform: uppercase;
   color: #f9bf3b;
-  font-family: "Roboto Bold";
 }
 
 .main_section .main_btn {
+  /* button */
   display: block;
   margin: 0 auto;
   margin-top: 69px;
   width: 321px;
   height: 80px;
-
+  
   background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
   border: 2px solid rgba(0, 0, 0, 0.22);
   border-radius: 10px;
@@ -101,7 +98,6 @@
   /* button label */
   font-family: 'Roboto Condensed';
   font-size: 21px;
-  font-weight: 400;
   text-transform: uppercase;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
   color: #ffffff;
@@ -110,10 +106,9 @@
 .main_section .more {
   margin-top: 69px;
 
-  font-family: "Roboto Thin";
+  font-family: 'Roboto Thin';
   font-size: 15px;
   line-height: 15px;
-  font-weight: 100;
   text-transform: uppercase;
   color: #ffffff;
   text-align: center;
@@ -130,34 +125,32 @@
 .intensive_section {
   padding: 85px 0 75px 0;
   min-height: 604px;
+
   background-color: #efefef;
 }
 
 .intensive_section .intensive_header {
   text-align: center;
-  font-family: "Roboto Regular";
   font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
   color: #252525;
 }
 
 .intensive_section .intensive_line {
+  display: block;
   margin: 0 auto;
   margin-top: 18px;
-  display: block;
   width: 217px;
   height: 4px;
+
   background-color: #f9bf3b;
 }
 
 .intensive_section .intensive_subhead {
   margin-top: 17px;
-  font-family: "Roboto Regular";
+
   font-size: 23px;
-  line-height: 20px;
-  font-weight: 400;
+
   color: #4a4a4a;
   text-align: center;
 }
@@ -176,6 +169,11 @@
 
 .intensive_section .intensive_item .intensive_text {
   margin-top: 33px;
+
+  font-family: 'Roboto Light';
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
   text-align: center;
 }
 
@@ -186,10 +184,10 @@
 
 .optimization_section .optimization_header {
   margin-left: 391px;
+
   font-family: "Roboto Black";
   font-size: 30px;
   line-height: 30px;
-  font-weight: 900;
   text-transform: uppercase;
   color: #299cbd;
 }
@@ -197,15 +195,15 @@
 .optimization_section .optimization_text {
   margin-top: 25px;
   margin-left: 391px;
+
   font-family: "Roboto Light";
-  font-size: 17px;
   line-height: 27px;
-  font-weight: 300;
+  font-size: 17px;
   color: #4a4a4a;
 }
 
 .optimization_section .optimization_text span {
-  font-weight: 700;
+  font-family: "Roboto Bold";
 }
 
 .optimization_section p {
@@ -230,21 +228,20 @@
 }
 
 .finish_section .finish_header {
-  font-family: "Roboto Regular";
+  font-family: "Roboto";
   font-size: 30px;
-  line-height: 12px;
-  font-weight: 400;
   text-transform: uppercase;
   color: #efefef;
   text-align: center;
 }
 
 .finish_section .finish_line {
+  display: block;
   margin: 0 auto;
   margin-top: 27px;
-  display: block;
   width: 217px;
   height: 4px;
+
   background-color: #f9bf3b;
 }
 
@@ -265,18 +262,19 @@
   justify-content: center;
   align-items: center; 
   margin: 0 auto;
-  border-radius: 100%;
   width: 115px;
   height: 115px;
+
+  border-radius: 100%;
   background-color: #b4e2ff;
 }
 
 .finish_section .finish_wrapper .finish_item .finish_text {
   margin-top: 26px;
+
   font-family: "Roboto Light";
+  line-height: 27px;
   font-size: 17px;
-  line-height: 20px;
-  font-weight: 300;
   color: #efefef;
   text-align: center;
 }
@@ -284,6 +282,7 @@
 .gift_section {
   min-height: 628px;
   padding: 86px 0 83px 0;
+
   background-color: #efefef;
 }
 
@@ -294,10 +293,10 @@
 
 .gift_section .gift_text {
   margin-top: 42px;
-  font-family: "Roboto Regular";
-  font-size: 30px;
+
+  font-family: "Roboto";
   line-height: 43px;
-  font-weight: 400;
+  font-size: 30px;
   color: #252525;
   text-align: center;
 }
@@ -309,6 +308,7 @@
   margin-top: 80px;
   width: 321px;
   height: 80px;
+
   background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
   border: 2px solid rgba(0, 0, 0, 0.22);
   border-radius: 10px;
@@ -316,8 +316,6 @@
   /* button label */
   font-family: 'Roboto Condensed';
   font-size: 21px;
-  line-height: 24px;
-  font-weight: 400;
   text-transform: uppercase;
   text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
   color: #ffffff;
@@ -335,10 +333,9 @@
 
 .webinar_section .webinar_header {
   margin-top: 37px;
-  font-family: "Roboto Regular";
+
+  font-family: "Roboto";
   font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
   text-transform: uppercase;
   color: #252525;
   text-align: center;
@@ -346,10 +343,9 @@
 
 .webinar_section .webinar_date {
   margin-top: 30px;
+
   font-family: "Roboto Black";
   font-size: 36px;
-  line-height: 36px;
-  font-weight: 900;
   text-transform: uppercase;
   color: #299cbd;
   text-align: center;
@@ -357,10 +353,9 @@
 
 .webinar_section .webinar_text {
   margin-top: 25px;
-  font-family: "Roboto Regular";
+
+  font-family: "Roboto";
   font-size: 23px;
-  line-height: 20px;
-  font-weight: 400;
   color: #4a4a4a;
   text-align: center;
 }
@@ -368,6 +363,7 @@
 footer {
   min-height: 166px;
   padding: 61px 0 69px 0;
+
   background-color: #1a1a1a;
 }
 
@@ -375,7 +371,6 @@ footer .footer_text{
   font-family: "Roboto Light";
   font-size: 15px;
   line-height: 25px;
-  font-weight: 300;
   text-decoration: none;
   color: #888888;
   text-align: center;
