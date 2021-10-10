@@ -365,3 +365,22 @@
   text-align: center;
 }
 
+footer {
+  min-height: 166px;
+  padding: 61px 0 69px 0;
+  background-color: #1a1a1a;
+}
+
+footer .footer_text{
+  font-family: "Roboto Light";
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #888888;
+  text-align: center;
+}
+
+footer a {
+  color: #888888;
+}
