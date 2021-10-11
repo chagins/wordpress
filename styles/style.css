@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* body {
+  min-width: 1140px;
+} */
+
+.container {
+  position: relative;
+  min-width: 1140px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.main_section {
+  min-height: 800px;
+  padding: 39px 0 62px 0;
+
+  background-image: url("https://chagins.github.io/wordpress/assets/images/main_section/background_main.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_section .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main_section .logo_text {
+  margin-top: 14px;
+  font-family: 'Roboto Medium';
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main_section h1.title {
+  margin-top: 53px;
+}
+
+.main_section .title {
+  font-family: 'Roboto Black';
+  font-size: 41px;
+  text-transform: uppercase;
+  color: #f9bf3b;
+  text-align: center;
+}
+
+.main_section h2.title {
+  margin-top: 30px;
+}
+
+.main_section h2.simple {
+  margin-top: 21px;
+
+  font-family: 'Roboto Black';
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main_section .main_text {
+  margin-top: 23px;
+  padding: 0 13px;
+
+  font-family: 'Roboto Light';
+  font-size: 21px;
+  line-height: 28px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main_section .main_text span {
+  font-family: 'Roboto Bold';
+  text-transform: uppercase;
+  color: #f9bf3b;
+}
+
+.main_section .main_btn {
+  /* button */
+  display: block;
+  margin: 0 auto;
+  margin-top: 69px;
+  width: 321px;
+  height: 80px;
+  
+  background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.17);
+
+  /* button label */
+  font-family: 'Roboto Condensed';
+  font-size: 21px;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+}
+
+.main_section .more {
+  margin-top: 69px;
+
+  font-family: 'Roboto Thin';
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main_section .down_arrows {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  width: 30px;
+  height: 19px;
+}
+
+.intensive_section {
+  padding: 85px 0 75px 0;
+  min-height: 604px;
+
+  background-color: #efefef;
+}
+
+.intensive_section .intensive_header {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.intensive_section .intensive_line {
+  display: block;
+  margin: 0 auto;
+  margin-top: 18px;
+  width: 217px;
+  height: 4px;
+
+  background-color: #f9bf3b;
+}
+
+.intensive_section .intensive_subhead {
+  margin-top: 17px;
+
+  font-size: 23px;
+
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.intensive_section .intensive_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.intensive_section .intensive_item {
+  width: 339px;
+}
+
+.intensive_section .intensive_item .intensive_text {
+  margin-top: 33px;
+
+  font-family: 'Roboto Light';
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.optimization_section {
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization_section .optimization_header {
+  margin-left: 391px;
+
+  font-family: "Roboto Black";
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.optimization_section .optimization_text {
+  margin-top: 25px;
+  margin-left: 391px;
+
+  font-family: "Roboto Light";
+  line-height: 22px;
+  font-size: 17px;
+  color: #4a4a4a;
+}
+
+.optimization_section .optimization_text span {
+  font-family: "Roboto Bold";
+}
+
+.optimization_section p {
+  margin: 10px 0;
+}
+
+.optimization_section .optimization_woman {
+  position: absolute;
+  left: -240px;
+  top: -54px;
+  z-index: -1;
+}
+
+.finish_section {
+  padding: 86px 0 79px 0;
+  min-height: 447px;
+
+  background-image: url("https://chagins.github.io/wordpress/assets/images/finish_section/background_finish.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.finish_section .finish_header {
+  font-family: "Roboto";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #efefef;
+  text-align: center;
+}
+
+.finish_section .finish_line {
+  display: block;
+  margin: 0 auto;
+  margin-top: 27px;
+  width: 217px;
+  height: 4px;
+
+  background-color: #f9bf3b;
+}
+
+.finish_section .finish_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+.finish_section .finish_wrapper .finish_item {
+  width: 208px;
+}
+
+.finish_section .finish_wrapper .finish_item .finish_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+  width: 115px;
+  height: 115px;
+
+  border-radius: 100%;
+  background-color: #b4e2ff;
+}
+
+.finish_section .finish_wrapper .finish_item .finish_text {
+  margin-top: 26px;
+
+  font-family: "Roboto Light";
+  line-height: 27px;
+  font-size: 17px;
+  color: #efefef;
+  text-align: center;
+}
+
+.gift_section {
+  min-height: 628px;
+  padding: 86px 0 83px 0;
+
+  background-color: #efefef;
+}
+
+.gift_section .gift_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift_section .gift_text {
+  margin-top: 42px;
+
+  font-family: "Roboto";
+  line-height: 43px;
+  font-size: 30px;
+  color: #252525;
+  text-align: center;
+}
+
+.gift_section .gift_btn {
+  /* button */
+  display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+  width: 321px;
+  height: 80px;
+
+  background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+  border: 2px solid rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  box-shadow: inset -1px 0px 0px 0px rgba(0, 0, 0, 0.17);
+  /* button label */
+  font-family: 'Roboto Condensed';
+  font-size: 21px;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px rgba(0,0,0,0.21);
+  color: #ffffff;
+}
+
+.webinar_section {
+  min-height: 515px;
+  padding: 82px 0 64px 0;
+}
+
+.webinar_section .webinar_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.webinar_section .webinar_header {
+  margin-top: 37px;
+
+  font-family: "Roboto";
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #252525;
+  text-align: center;
+}
+
+.webinar_section .webinar_date {
+  margin-top: 30px;
+
+  font-family: "Roboto Black";
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #299cbd;
+  text-align: center;
+}
+
+.webinar_section .webinar_text {
+  margin-top: 25px;
+
+  font-family: "Roboto";
+  font-size: 23px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+footer {
+  min-height: 166px;
+  padding: 61px 0 69px 0;
+
+  background-color: #1a1a1a;
+}
+
+footer .footer_text{
+  font-family: "Roboto Light";
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #888888;
+  text-align: center;
+}
+
+footer a {
+  color: #888888;
+}
