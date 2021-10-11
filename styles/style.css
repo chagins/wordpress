@@ -8,8 +8,13 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+/* body {
+  min-width: 1140px;
+} */
+
 .container {
   position: relative;
+  min-width: 1140px;
   width: 1140px;
   margin: 0 auto;
 }
