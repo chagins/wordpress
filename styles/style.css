@@ -178,8 +178,8 @@ html {
 }
 
 .optimization_section {
-  padding: 102px 0 107px 0;
   min-height: 550px;
+  padding: 102px 0 107px 0;
 }
 
 .optimization_section .optimization_header {
@@ -197,7 +197,7 @@ html {
   margin-left: 391px;
 
   font-family: "Roboto Light";
-  line-height: 27px;
+  line-height: 22px;
   font-size: 17px;
   color: #4a4a4a;
 }
